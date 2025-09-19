@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <style>
+            *{
+                margin-top: 0;
+                margin-left: 0;
+            }
+            
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                background-color: rgba(161, 191, 230, 0.637);
+                color: rgb(96, 120, 173);
+            }
+            .men1{
+                color: white;
+                box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.562);
+                background-color: rgba(12, 31, 85, 0.507);
+                width: 100%;
+                position: relative;
+
+            }
+            .menu{
+                padding:10px ;
+                position: relative;
+                display: inline-block;
+                list-style: none;
+                transition: all 0.5s ;
+            }
+            .menu:hover{
+                background-color: rgba(255, 255, 255, 0.247);
+                cursor: pointer;
+            }
+            a{
+                color: white;
+               text-decoration: none; 
+            }
+            .painel{
+                margin: auto;
+                background-image: linear-gradient(140deg, rgb(211, 224, 241), rgb(13, 124, 189));
+                border-radius: 30px ;
+                width: 900px;
+                height: 250px;
+                padding: 20px;
+                color: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 1.5rem;
+                
+            }
+            .titulo1{
+                display: inline-block;
+                position:absolute;
+                text-align: center;
+                margin-top: 70px;
+                margin-left: 390px;
+            }
+            .titulo2{
+                display: inline-block;
+                position:absolute;
+                margin-top: 140px;
+                margin-left: 210px;
+                text-align: center;
+            }
+            .conteudo{
+                width: 900px;
+                margin: auto;
+                margin-top:70px;
+                border-radius: 30px;
+                box-shadow: 6px 6px 6px  rgba(0, 0, 0, 0.26);
+                padding:20px;
+                background-image: linear-gradient(140deg, rgba(255, 255, 255, 0.993), rgba(0, 160, 253, 0.226));
+            }
+            .conteudo1{
+                font-size: 1.1rem;
+                margin: auto;
+                color: rgb(255, 255, 255);
+                border-radius:10px; ;
+                background-color: rgba(90, 147, 170, 0.589);
+                width: 520px;
+                height: 30px;
+                text-align: center;
+                padding: 6px;
+            }
+            .carac1{
+                margin-top: 30px;
+            }
+            .carac1, .carac2{
+                margin-left: 30px;
+            }
+            .vantagens{
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+            .ponte{
+                position: relative;
+                width: 200px;
+                float: right;
+            }
+            .tit1{
+                color: white;
+                padding: 6px;
+                border-radius: 30px;
+                background-color: rgba(41, 138, 184, 0.534);
+                width: 260px;
+            }
+            li{
+                padding-left: 10px;
+            }
+            li::marker{
+                content: '★';
+                color: rgb(60, 144, 155);
+            }
+            .capilaridade, .coesao{
+                margin-left: 10px;
+            }
+            .capilaridade{
+                text-align: center;
+            }
+            .coesao, .adesao{
+                color: rgb(255, 255, 255);
+            }
+            .coes{
+                margin-left: 80px;
+                background-color: rgba(70, 148, 211, 0.562);
+                border-radius: 20px;
+                width: 300px;
+                height: 200px;
+                text-align: center;
+                padding: 10px;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
+                display: inline-block;
+                bottom: 0px;
+                position: relative;
+                transition: all 1s ease;
+            }
+            .ades{
+                margin-left: 90px;
+                background-color: rgba(70, 148, 211, 0.562);
+                border-radius: 20px;
+                width: 300px;
+                height: 200px;
+                text-align: center;
+                padding: 10px;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.212);
+                display: inline-block;
+                position: relative;
+                bottom: 0px;
+                transition:all 1s ease;
+            }
+            .ades:hover{
+                bottom: 10px;
+                box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.623);
+            }
+            .coes:hover{
+                bottom: 10px;
+                box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.623);
+            }
+            .tudo{
+                margin-right: 10px;
+                margin-top: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <ul class="men1">
+            <li class="menu"><a href="https://google.com">Lipideos</a></li>
+            <li class="menu"><a href="https://google.com">Vitaminas</a></li>
+        </ul>
+        <div class="site">
+        <div class="painel">
+        <h2 class="titulo1">Água</h2>
+        <h3 class="titulo2">O componente principal da vida</h3 class="tit1">
+        </div>
+        <div class="conteudo">
+            <div class="tudo">
+        <div class="conteudo1"><h3>A água é uma molécula inorgânica composta de H²O.</h3></div>
+        <div class="carac1">
+            Ela é uma molécula polar possuindo maior carga positiva nos 
+            hidrogênios da ligação e carga negativa no Oxigênio.
+        </div>
+        <div class="carac2">
+            Sua ligação envolvendo hidrogênio pode resultar em uma 
+            ligação chamada de ponte de hidrogênio. Ligação muito forte 
+            que resulta em um fenômeno chamado capilaridade.
+        </div>
+        <img src="3D_model_hydrogen_bonds_in_water.svg" class="ponte">
+        <br>
+        <ul class="vantagens">
+            <h3 class="tit1">capilaridade</h3 class="tit1">
+            <li class="v1">
+                A capilaridade possibilita vários fenômenos necessários para
+                a vida, como por exemplo as árvores que transportam água do 
+                solo para suas folhas que se localizam a até 10m de distância 
+                do solo.
+            </li>
+            <br>
+            <h3 class="tit1">Solvente Universal</h3 class="tit1">
+            <li>A água é um solvente universal, ou seja, quando  nos referimos à 
+                substâncias polares, água pode se misturar com todas elas.
+            </li>
+            <br>
+            <h3 class="tit1">Moderadora de temperatura</h3 class="tit1">
+            <li>
+                A água é um bom moderador de temperatura, uma vez que seu calor
+                específico é muito alto, ou seja, ela "conserva" mais sua 
+                temperatura, oque é totalmente escencial para que a água realize
+                reações no corpo.
+            </li>
+        </ul>
+        <br>
+        
+        <br>
+
+        <div class="capilaridade">
+            A capilaridade é o fenômeno que explica como a água
+            pode chegar ao topo de uma árvore como citado anteriormente
+        </div>
+        <br><br>
+        <div class="coes">
+        <div class="coesao">
+            <h3 class="ad">coesão</h3>
+            A coesão é o fenômeno que acontece quando a ligação entre as moléculas
+            de água se ligam, fazendo o que é conhecido como ponte de hidrogênio. O 
+            fenômeno resulta na criação de gotas por exemplo, uma vez que a ligação
+            é taõ forte que uma puxa a outra.
+        </div>
+        </div>
+        <div class="ades">
+        <div class="adesao">
+            <h3 class="ad">adesão</h3>
+            Já a adesão é o fenômeno que acontece consequentemente por conta da ponte
+            de hidrogênio. Ou seja, a água vai interagir com outras moléculas também 
+            polares e assim realizando um fenômeno parecendo com que a água se aderiu
+            àquele objeto.
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </body>
+</html>
