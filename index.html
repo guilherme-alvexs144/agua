@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Guia de estudos sobre bioquímica">
+        <meta name="author" content="Guilherme Alves Lobianco">
+        <title>Guia de Estudos de Bioquímica</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            header{
+                background-image: linear-gradient(140deg, rgb(16, 85, 62), rgba(84, 192, 160, 0.795));
+                color:white;
+                width: 100%;
+                position: relative;
+                padding: 10px;
+            }
+            .cabeca{
+                margin: auto;
+                padding: 10px;
+                width: 100%;
+                display: flex;
+                position: relative;
+                justify-content: center;
+            }
+            .cabeca h1, h2{
+                text-align: center;
+            }
+            .logo{
+                width: 100px;
+                height: 100px;
+                display: inline;
+                position: relative;
+            }
+            .painel{
+                position: relative;
+            }
+            .painel ul{
+                background-color: rgb(69, 121, 105);
+                list-style: none;
+            }
+            .menu{
+                display: inline-block;
+                transition: all 0.5s ;
+            }
+            .painel a{
+                display: block;
+                width: 100%;
+                padding: 10px;
+                color:white;
+                text-decoration: none;
+            }
+            .menu:hover{
+                background-color: rgba(255, 255, 255, 0.247);
+                cursor: pointer;
+            }
+            .bioquimica h3{
+                display: inline;
+            }
+            section{
+                padding: 30px;
+                width: 75%;
+                list-style-position: inside;
+                float: right;
+                background-color: rgba(38, 121, 87, 0.582);
+                color: white;
+            }
+            aside{
+                width: 25%;
+                padding: 10px;
+                float: left;
+                position: relative;
+                background-color: #4491617c;
+            }
+            .tit1{
+                background-color: rgba(24, 83, 59, 0.226);
+                width: fit-content;
+                text-align: center;
+                border-radius: 20px;
+                padding: 10px;
+                margin: 0 auto;
+            }
+            .conteudo{
+                text-align: center;
+                margin: auto;
+            }
+            footer{
+                clear: both;
+                text-align: center;
+                padding: 20px;
+                background-color: rgb(69, 121, 105);
+                color: white;
+                position: relative;
+            }
+            section li::marker{
+                content: '✦';
+                color: rgb(75, 126, 95);
+            }
+            .topicos{
+                margin-left: 50px;
+            }
+            .aviso{
+                color: rgb(255, 255, 255);
+                background-color: rgba(27, 105, 66, 0.329);
+                padding: 10px;
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 0px;
+                font-size: 1.2rem;
+                transition: all 1s;
+                box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.301);
+                width: fit-content;
+            }
+            .aviso:hover{
+                margin-top: 10px;
+                box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.301);
+            }
+            .tudo{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="cabeca">
+                <div>
+                <h1 >Guia de Estudos</h1>
+                <h2 >Bioquímica</h2>
+                </div>
+            <img src="6167790.png" alt="molécula de água" class="logo">
+            </div>
+            
+        </header>
+        <div class="painel">
+            <ul>
+                <li class="menu"><a href="agua.html">água</a></li>
+                <li class="menu"><a href="https://google.com">vitaminas</a></li>
+                <li class="menu"><a href="https://google.com">carboidratos</a></li>
+                <li class="menu"><a href="https://google.com">lipídios</a></li>
+                <li class="menu"><a href="https://google.com">proteínas</a></li>
+                <li class="menu"><a href="https://google.com">enzimas</a></li>
+            </ul>
+        </div>
+        <div class="tudo">
+        <aside>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1 class="aviso"><center>Conteúdo super
+            <br>descolado e maneiro</center></h1>
+
+        </aside>
+        <section>
+            <div class="bioquimica">
+                <h1 class="tit1">Bioquímica</h1>
+                <br><br>
+                <p class="conteudo">A bioquímica é o estudo das substâncias químicas e dos processos vitais que 
+                     ocorrem nos organismos vivos. Ela combina princípios da química e da biologia
+                     para entender a estrutura, função e interações das moléculas biológicas, 
+                     como proteínas, carboidratos, lipídios e ácidos nucleicos. A bioquímica é 
+                     fundamental para compreender como as células funcionam, como os organismos obtêm 
+                     energia, como se comunicam e como mantêm a homeostase. Além disso, a bioquímica tem 
+                     aplicações práticas em áreas como medicina, agricultura e biotecnologia, contribuindo 
+                     para o desenvolvimento de novos tratamentos, alimentos e tecnologias.
+                </p>
+                <br>
+                <br>
+                <h2 class="tit1">Principais Ramos da Bioquímica</h2>
+                <br><br>
+                <ul>
+                    <li class="topicos"><h3>Bioquímica Estrutural:</h3> estuda a estrutura das moléculas biológicas.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica Metabólica:</h3> analisa as vias metabólicas e como as células obtêm e utilizam energia.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica Clínica:</h3> aplica conhecimentos bioquímicos no diagnóstico e tratamento de doenças.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica Molecular:</h3> investiga as interações moleculares e os mecanismos de regulação genética.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica Nutricional:</h3> estuda o papel dos nutrientes e como eles afetam a saúde e o metabolismo.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica Ambiental:</h3> examina o impacto das substâncias químicas no meio ambiente e nos organismos vivos.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica de Proteínas:</h3> foca na estrutura, função e dinâmica das proteínas.</li>
+                    <br>
+                    <li class="topicos"><h3>Bioquímica de Ácidos Nucleicos:</h3> estuda o DNA e RNA, incluindo sua estrutura, função e papel na genética.</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+        <footer>
+            <p>&copy; 2024 Guia de Estudos de Bioquímica. Todos os direitos reservados.</p>
+        </footer>
+    </body>
+</html>
